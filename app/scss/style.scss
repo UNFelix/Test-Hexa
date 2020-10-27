@@ -1,0 +1,122 @@
+@import "vars";
+@import "libs";
+@import "components";
+
+body {
+  // font-family: "Raleway", sans-serif;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+h1,
+p,
+span,
+a,
+a:hover {
+  text-decoration: none;
+  // padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 17px 0;
+  background-color: #ffffff;
+  &-descr {
+    display: flex;
+    align-items: center;
+  }
+  &-logo {
+    & a {
+      font-size: 30px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.15px;
+      color: #040404;
+    }
+  }
+  &-subtitle {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 31px;
+  }
+  &-contacts {
+    display: flex;
+    align-items: center;
+  }
+  &-number {
+    margin-right: 17px;
+    & a {
+      font-family: "Lato", sans-serif;
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 21px;
+      text-transform: uppercase;
+      color: #000000;
+    }
+  }
+}
+
+.info {
+  background: url("../img/bg.png") center no-repeat;
+  background-size: cover;
+}
+.slider {
+  position: relative;
+  left: 180px;
+  &-subtitle {
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    margin: 25px 0;
+  }
+}
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #000000;
+  opacity: 0.6;
+  padding: 10px 0;
+  &__item {
+    & a {
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      margin: 0 64px;
+      &:hover {
+        font-weight: 700;
+        margin: 0 62px;
+      }
+    }
+    & span {
+      color: #ffffff;
+    }
+  }
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  opacity: 0.8;
+  padding: 20px 0;
+  margin-top: 128px;
+  &-block {
+    max-width: 245px;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
+
+@import "media";
