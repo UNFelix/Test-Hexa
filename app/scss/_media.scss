@@ -1,13 +1,22 @@
 @media (max-width: 1680px) {
   .slider-arrows {
     bottom: 15px;
+    &__left {
+      left: 365px;
+    }
   }
   .slick-dots {
     bottom: 15px;
+    left: 405px;
   }
   .slider__item {
     top: 0;
     margin-left: 14%;
+  }
+}
+@media (max-width: 1550px) {
+  .slider-arrows__left {
+    left: 365px;
   }
 }
 @media (max-width: 1250px) {
