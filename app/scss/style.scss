@@ -61,23 +61,6 @@ a:hover {
     }
   }
 }
-
-.info {
-  background: url("../img/bg.png") center no-repeat;
-  background-size: cover;
-}
-.slider {
-  position: relative;
-  left: 180px;
-  &-subtitle {
-    color: #ffffff;
-    font-size: 19px;
-    font-weight: 700;
-    text-transform: uppercase;
-    display: block;
-    margin: 25px 0;
-  }
-}
 .nav-menu {
   display: flex;
   justify-content: center;
@@ -104,6 +87,27 @@ a:hover {
   }
 }
 
+.slider {
+  &-block {
+    & img {
+      width: 100%;
+    }
+  }
+  &__item {
+    position: absolute;
+    top: 70px;
+    margin-left: 350px;
+  }
+  &-subtitle {
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    margin: 25px 0;
+  }
+}
+
 .about {
   display: flex;
   justify-content: center;
@@ -111,7 +115,6 @@ a:hover {
   background-color: #ffffff;
   opacity: 0.8;
   padding: 20px 0;
-  margin-top: 128px;
   &-block {
     max-width: 245px;
     text-align: center;

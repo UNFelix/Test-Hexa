@@ -1,3 +1,37 @@
 // .slick-slide img {
 //   position: absolute;
 // }
+// .slick-slider {
+//   position: absolute !important;
+// }
+// .slide {
+//   position: absolute;
+// }
+.presentation {
+  color: aqua;
+  width: 9px;
+  border-radius: 50px;
+}
+.slick-dots {
+  position: absolute;
+  display: flex;
+  list-style: none;
+  bottom: 230px;
+  left: 365px;
+  & li {
+    // border-radius: 50px;
+    // margin: 0 10px;
+    & button {
+      background-color: #fff;
+      color: aqua;
+      border-radius: 50px;
+      margin: 0px 5px;
+      padding: 5px 5px;
+      font-size: 0;
+      &:hover,
+      :active {
+        border: 1px solid #fff;
+      }
+    }
+  }
+}
