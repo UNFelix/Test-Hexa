@@ -80,14 +80,3 @@
   align-items: center;
   margin-top: 10px;
 }
-
-.slider-arrows {
-  position: absolute;
-  z-index: 2;
-  bottom: 235px;
-  left: 600px;
-  &__left {
-    bottom: 235px !important;
-    left: 320px;
-  }
-}

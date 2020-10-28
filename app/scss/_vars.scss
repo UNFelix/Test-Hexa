@@ -16,8 +16,8 @@
   position: absolute;
   display: flex;
   list-style: none;
-  bottom: 230px;
-  left: 365px;
+  bottom: 150px;
+  left: 380px;
   & li {
     // border-radius: 50px;
     // margin: 0 10px;
@@ -33,5 +33,14 @@
         border: 1px solid #fff;
       }
     }
+  }
+}
+.slider-arrows {
+  position: absolute;
+  z-index: 2;
+  bottom: 150px;
+  left: 600px;
+  &__left {
+    left: 320px;
   }
 }
